@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>Crazy colors</header>
+    <main>
+      <div class="colored-div">paint me</div>
+      <div class="snd-div">
+        <button id="bb" onclick="generateHexCode()">
+          choose random colore
+        </button>
+        <p id="or">or</p>
+        <label for="col">type hex color</label>
+        <input
+          oninput="change()"
+          type="text"
+          name="coll"
+          id="col"
+          value=""
+          maxlength="7"
+        />
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- oninput="change()" -->

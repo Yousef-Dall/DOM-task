@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+} */
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: blue;
+    font-size: 30px;
+    text-transform:uppercase
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    height: 85vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.snd-div{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    justify-content: space-between;
+    height: 50vh;
+
+}
+
+.colored-div{
+    font-size: 80px;
+    height: 50vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    width: 40vw;
+    border-radius: 100px;
+    text-transform: uppercase;
+        /* background-color: #000000; */
+}
+
+button{
+    height: 10vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    text-transform: uppercase;
+    color: aquamarine;
+    background-color: white;
+    font-size: 40px;
+
+}
+p{
+    height: 10vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+label{
+    height: 10vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    color: green;
+    font-size: 30px;
+}
+input{
+    height: 10vh;
+    color: black;
+    font-size: 30px;
+}
+
+#bb:hover{
+    color: white;
+    background-color: aquamarine;
+}
